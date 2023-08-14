@@ -1,0 +1,45 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  position: absolute;
+  margin-top: 15px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  left: 300px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  margin-left: 70px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-inline-end: 70px;
+}
+
+.navbar-logo {
+  position: absolute;
+}
+
+.navbar-container a > span {
+  font-weight: 700;
+  margin-inline-end: 1em;
+}
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+}
+
+.navbar ul li {
+  padding: auto;
+}
+
+.navbar ul li a:hover {
+  color: red;
+}

@@ -1,0 +1,22 @@
+.home-container {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 350px;
+  padding: 300px;
+}
+
+.home {
+  display: flex;
+}
+
+.memoji {
+  margin-top: 210px;
+}
+
+.memoji img {
+  border-radius: 200px;
+  height: 300px;
+  width: 300px;
+}
