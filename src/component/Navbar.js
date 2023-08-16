@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import LOGO from "../assets/images/logo.png";
 
-function Navbar() {
+function Navbar({ onLinkClick }) {
   return (
     <>
       <nav className="navbar">
@@ -13,31 +13,39 @@ function Navbar() {
           </Link>
           <ul>
             <li>
-              <Link to="/Home" className="home-btn">
+              <Link to="/Home" className="home-btn" onClick={onLinkClick}>
                 <span>00</span>
                 HOME
               </Link>
             </li>
             <li>
-              <Link to="/About" className="about-btn">
+              <Link to="/About" className="about-btn" onClick={onLinkClick}>
                 <span>01</span>
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link to="/Music-Style" className="music-btn">
+              <Link
+                to="/Music-Style"
+                className="music-btn"
+                onClick={onLinkClick}
+              >
                 <span>02</span>
                 MUSICSTYLE
               </Link>
             </li>
             <li>
-              <Link to="/Services" className="services-btn">
+              <Link
+                to="/Services"
+                className="services-btn"
+                onClick={onLinkClick}
+              >
                 <span>03</span>
                 SERVICES
               </Link>
             </li>
             <li>
-              <Link to="/Contact" className="contact-btn">
+              <Link to="/Contact" className="contact-btn" onClick={onLinkClick}>
                 <span>04</span>
                 CONTACT
               </Link>

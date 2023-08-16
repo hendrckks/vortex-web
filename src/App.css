@@ -4,9 +4,48 @@
 
 .content-container {
   opacity: 1;
-  transition: opacity 2s ease-in-out;
+  transition: opacity 0.6s ease-in-out;
 }
 
 .fade-out {
   opacity: 0;
+}
+.fade-in {
+  opacity: 1;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  flex-direction: row;
+}
+
+.copy-write {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.socials-icons {
+  display: flex;
+  align-items: center;
+}
+
+.socials-icons .MuiSvgIcon-root {
+  color: grey;
+  width: auto;
+  margin: 0 8px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.socials-icons .MuiSvgIcon-root:hover {
+  color: white;
 }
