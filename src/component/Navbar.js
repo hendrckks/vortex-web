@@ -37,7 +37,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/Contact" className="Contact-btn">
+              <Link to="/Contact" className="contact-btn">
                 <span>04</span>
                 CONTACT
               </Link>
