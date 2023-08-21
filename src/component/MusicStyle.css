@@ -1,6 +1,6 @@
 .music-style {
   color: white;
-  padding-top: 200px;
+  padding-top: 180px;
   padding-left: 300px;
 }
 
@@ -13,6 +13,7 @@
   font-weight: 50;
   font-size: 34px;
   font-family: "Kaushan Script", cursive;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .paragraph {
@@ -22,4 +23,21 @@
 
 .centered-container {
   height: 100%;
+}
+
+.album-container {
+  margin-top: 30px;
+  display: flex-wrap;
+  column-count: 3;
+  z-index: -1;
+  column-gap: auto;
+}
+
+.album-container img {
+  border-radius: 20px;
+  width: 400px;
+  height: 380px;
+  margin-left: 0px;
+  cursor: pointer;
+  margin-top: auto;
 }

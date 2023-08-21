@@ -62,14 +62,17 @@ li.selected {
 .navbar ul li a::after {
   content: "";
   display: block;
-  width: 0; /* Initially, the underline has zero width */
-  height: 2px; /* Height of the underline */
-  background-color: red; /* Color of the underline */
-  transition: width 0.3s ease-in-out; /* Animation transition */
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease-in-out;
   margin-left: 70px;
 }
 
-/* When hovering over the <a> tag, increase the width of the underline */
 .navbar ul li a:hover::after {
-  width: 60%; /* Fully expand the underline on hover */
+  width: 60%;
+}
+
+nav {
+  margin-top: 10px;
 }

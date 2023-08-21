@@ -1,5 +1,11 @@
 import React from "react";
 import "./MusicStyle.css";
+import COOL from "../assets/images/CoolKid.jpg";
+import POP from "../assets/images/PopCulture.jpg";
+import NAIJA from "../assets/images/NaijaFusion.jpg";
+import DROP from "../assets/images/OneDrop.jpg";
+import VAIBU from "../assets/images/Vaibu.jpg";
+import THIRTY from "../assets/images/Thirty.jpg";
 
 function MusicStyle() {
   return (
@@ -20,6 +26,14 @@ function MusicStyle() {
             harmonizing the world's beats into a singular rhythm that resonates
             within every soul.
           </p>
+        </div>
+        <div className="album-container">
+          <img src={VAIBU} alt="cool-album" />
+          <img src={COOL} alt="cool-album" />
+          <img src={THIRTY} alt="cool-album" />
+          <img src={DROP} alt="cool-album" />
+          <img src={NAIJA} alt="cool-album" />
+          <img src={POP} alt="cool-album" />
         </div>
       </div>
     </div>

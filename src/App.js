@@ -12,6 +12,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { playTransitionAnimation } from "./component/Animation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMixcloud } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   function HandleInstagramClick() {
@@ -55,7 +57,10 @@ function App() {
             <Route path="/Home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Music-style" element={<MusicStyle />} />
-            <Route path="/Services" element={<Services />} />
+            <Route
+              path="/Services"
+              element={<Services transition={handlePageTransition} />}
+            />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         </div>
@@ -65,6 +70,7 @@ function App() {
             <InstagramIcon onClick={HandleInstagramClick} />
             <TwitterIcon onClick={HandleTwitterClick} />
             <YouTubeIcon onClick={HandleYoutubeClick} />
+            <FontAwesomeIcon icon={faMixcloud} />
           </div>
         </div>
       </Router>
