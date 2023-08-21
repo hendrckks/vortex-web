@@ -9,6 +9,7 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    useState("");
 
     const templateParams = {
       name,
@@ -41,7 +42,6 @@ function Contact() {
 
       <div className="form-container">
         <form onSubmit={handleSubmit}>
-          {/* Full Name */}
           <div className="form-control">
             <label htmlFor="name">Full Name</label>
             <input
@@ -52,7 +52,6 @@ function Contact() {
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          {/* Email Address */}
           <div className="form-control">
             <label htmlFor="email">Email Address</label>
             <input
@@ -63,7 +62,6 @@ function Contact() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          {/* Message */}
           <div className="form-control">
             <label htmlFor="message">Message</label>
             <textarea
@@ -74,7 +72,6 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          {/* Submit Button */}
           <button type="submit" onClick={handleSubmit}>
             Send Message
           </button>
