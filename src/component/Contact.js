@@ -9,7 +9,9 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    useState("");
+    setMessage("");
+    setName("");
+    setEmail("");
 
     const templateParams = {
       name,
