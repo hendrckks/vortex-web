@@ -18,8 +18,8 @@
   color: rgba(255, 255, 255, 0.7);
   justify-content: center;
   align-items: center;
-  padding-top: 270px;
-  padding-left: 750px;
+  padding-top: 170px;
+  padding-left: 760px;
   width: 480px;
   font-weight: 50;
   font-family: "Oswald", sans-serif;
@@ -34,13 +34,18 @@
   line-height: 1.4em;
   letter-spacing: 0.2em;
   font-weight: 50;
-  padding-left: 930px;
+  padding-left: 940px;
   margin-top: 20px;
 }
 
 .form-container {
-  margin-left: 870px;
+  margin-left: 700px;
   color: white;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "proxima-nova", sans-serif;
 }
 
 .form-control h5 {
@@ -57,4 +62,67 @@
 
 .email {
   color: white;
+}
+
+h5 {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.message {
+  width: 570px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #fafafa;
+}
+
+button {
+  cursor: pointer;
+  width: 130px;
+  height: 46px;
+  margin-top: 10px;
+  margin-left: 230px;
+  background-color: transparent;
+  border-width: 2px;
+  color: white;
+  border-color: white;
+  border-style: solid;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+.email-input {
+  margin-top: 10px;
+  width: 570px;
+  height: 21px;
+  background-color: #fafafa;
+}
+
+.name-input {
+  margin-top: 10px;
+  width: 570px;
+  height: 20px;
+  background-color: #fafafa;
+}
+
+.required {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.email-container {
+  margin-top: 5px;
+}
+
+.show-email {
+  color: white;
+  margin-left: 900px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.show-email > span {
+  color: rgba(255, 255, 255, 0.7);
 }

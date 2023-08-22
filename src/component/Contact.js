@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import emailjs from "@emailjs/browser"; // Updated import for emailjs
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -41,41 +41,51 @@ function Contact() {
       <h2 className="contact-us">
         <span>LET'S WORK TOGETHER</span>
       </h2>
-
+      <p className="show-email">
+        <span>Email</span>: djvortex99@gmail.com
+      </p>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
-          <div className="form-control">
-            <label htmlFor="name">Full Name</label>
+          <div className="name-container">
+            <h5 For="name">
+              Full Name / Company Name
+              <span className="required"> (required)</span>
+            </h5>
             <input
               type="text"
-              className="form-group"
-              placeholder="First Name"
+              className="name-input"
+              placeholder=""
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          <div className="form-control">
-            <label htmlFor="email">Email Address</label>
+          <div className="email-container">
+            <h5 For="email">
+              Email Address<span className="required"> (required)</span>
+            </h5>
             <input
               type="text"
-              className="form-group"
-              placeholder="Enter Email"
+              className="email-input"
+              placeholder=""
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div className="form-control">
-            <label htmlFor="message">Message</label>
+          <div className="message-container">
+            <h5 For="message">
+              Message
+              <span className="required"> (required)</span>
+            </h5>
             <textarea
               type="text"
-              className="form-group"
-              placeholder="Enter Message"
+              className="message"
+              placeholder=""
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button type="submit" onClick={handleSubmit}>
-            Send Message
+            SUBMIT
           </button>
         </form>
       </div>
