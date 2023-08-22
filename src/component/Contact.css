@@ -71,7 +71,7 @@ h5 {
 
 .message {
   width: 570px;
-  height: 50px;
+  height: 100px;
   margin-top: 10px;
   background-color: #fafafa;
 }
@@ -96,14 +96,14 @@ button:hover {
 .email-input {
   margin-top: 10px;
   width: 570px;
-  height: 21px;
+  height: 46px;
   background-color: #fafafa;
 }
 
 .name-input {
   margin-top: 10px;
   width: 570px;
-  height: 20px;
+  height: 46px;
   background-color: #fafafa;
 }
 
