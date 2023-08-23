@@ -56,7 +56,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/About" element={<About />} />
-            <Route path="/Music-style" element={<MusicStyle />} />
+            <Route path="/Mixes" element={<MusicStyle />} />
             <Route
               path="/Services"
               element={<Services transition={handlePageTransition} />}

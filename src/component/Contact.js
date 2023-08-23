@@ -9,6 +9,12 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    if (!name || !email || !message) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+
     setMessage("");
     setName("");
     setEmail("");

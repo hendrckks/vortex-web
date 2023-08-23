@@ -1,7 +1,7 @@
 .music-style {
   color: white;
   padding-top: 180px;
-  padding-left: 300px;
+  padding-left: 150px;
 }
 
 .content {
@@ -12,10 +12,14 @@
 .vibe {
   font-weight: 50;
   font-size: 34px;
-  font-family: "Kaushan Script", cursive;
-  color: rgba(255, 255, 255, 0.7);
+  font-family: "Oswald", sans-serif;
+  color: red;
+  margin-left: 720px;
 }
 
+.vibe:hover {
+  color: red;
+}
 .paragraph {
   margin-top: 30px;
   width: 700px;
@@ -26,18 +30,50 @@
 }
 
 .album-container {
-  margin-top: 30px;
-  display: flex-wrap;
-  column-count: 3;
+  margin-top: 90px;
+  display: flex;
   z-index: -1;
-  column-gap: auto;
+  gap: 30px;
 }
 
 .album-container img {
-  border-radius: 20px;
-  width: 400px;
-  height: 380px;
-  margin-left: 0px;
+  width: 300px;
+  height: 300px;
+  margin-left: 140px;
   cursor: pointer;
   margin-top: auto;
+  transition: transform 0.3s ease;
+}
+
+.album:hover img {
+  transform: scale(1.1);
+}
+
+.album:hover .overlay {
+  opacity: 1;
+}
+
+.album .overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  top: -50px;
+  color: white;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  width: 335px;
+  margin-left: 120px;
+}
+.album {
+  height: 300px;
+  position: relative;
+}
+
+.album .overlay p {
+  font-size: 30px;
+  margin: 0;
+  padding: 170px;
+  font-family: "Oswald", sans-serif;
 }

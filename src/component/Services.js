@@ -1,22 +1,36 @@
 import React from "react";
 import "./MusicStyle";
 import "./Services.css";
-import { Link } from "react-router-dom";
 
 function Services() {
   return (
-    <div className="header-container">
-      <div className="header">
-        <h1>
-          {" "}
-          <span>DISK JOCKEY / CONTENT CREATOR</span>
-        </h1>
-        <div className="button-container">
-          <Link to="/Music-Style" className="Music-btn">
-            <button to="/Music-Style" className="button-86">
-              DJ SERVICES
-            </button>
-          </Link>
+    <div className="services">
+      <div className="header-container">
+        <div className="header">
+          <h1>
+            {" "}
+            <span>DISK JOCKEY / CONTENT CREATOR</span>
+          </h1>
+        </div>
+      </div>
+      <div className="banner-container">
+        <div className="dj-banner">
+          <h3>Disk Jockey</h3>
+          <h5>6 Yrs Experience</h5>
+        </div>
+        <div className="curator-banner">
+          <h3>Music Curator</h3>
+          <h5>6 Yrs Experience</h5>
+        </div>
+      </div>
+      <div className="banner2-container">
+        <div className="banner">
+          <h3>Disk Jockey</h3>
+          <h5>6 Yrs Experience</h5>
+        </div>
+        <div className="editor-banner">
+          <h3>Video Editor</h3>
+          <h5>6 Yrs Experience</h5>
         </div>
       </div>
     </div>

@@ -25,13 +25,9 @@ function Navbar({ onLinkClick }) {
               </Link>
             </li>
             <li>
-              <Link
-                to="/Music-Style"
-                className="music-btn"
-                onClick={onLinkClick}
-              >
+              <Link to="/Mixes" className="music-btn" onClick={onLinkClick}>
                 <span>02</span>
-                MUSICSTYLE
+                MIXES
               </Link>
             </li>
             <li>
