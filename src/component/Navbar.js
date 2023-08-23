@@ -46,6 +46,12 @@ function Navbar({ onLinkClick }) {
                 CONTACT
               </Link>
             </li>
+            <li>
+              <Link to="/Shop" className="shop-btn" onClick={onLinkClick}>
+                <span>05</span>
+                SHOP
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

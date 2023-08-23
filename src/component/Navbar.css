@@ -11,7 +11,7 @@ ul {
   display: flex;
   list-style: none;
   position: absolute;
-  left: 470px;
+  left: 450px;
 }
 
 .navbar ul li a {

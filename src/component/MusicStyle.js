@@ -25,7 +25,7 @@ function MusicStyle() {
           <div className="album">
             <img src={THIRTY} alt="cool-album" />
             <div className="overlay">
-              <p>Hover Text</p>
+              <p>30 INNIT</p>
             </div>
           </div>
         </div>

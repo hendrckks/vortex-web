@@ -14,6 +14,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import { playTransitionAnimation } from "./component/Animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMixcloud } from "@fortawesome/free-brands-svg-icons";
+import Shop from "./component/Shop";
 
 function App() {
   function HandleInstagramClick() {
@@ -57,11 +58,9 @@ function App() {
             <Route path="/Home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Mixes" element={<MusicStyle />} />
-            <Route
-              path="/Services"
-              element={<Services transition={handlePageTransition} />}
-            />
+            <Route path="/Services" element={<Services />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path="/Shop" element={<Shop />} />
           </Routes>
         </div>
         <div className="bottom-container">

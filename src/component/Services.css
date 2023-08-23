@@ -279,3 +279,59 @@
 .banner:hover {
   transform: scale(1.1);
 }
+
+.skill {
+  display: flex;
+}
+
+.rank-content {
+  padding: 20px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 12px;
+  height: 1px;
+  margin-left: 85px;
+  border-radius: 5px;
+}
+
+p {
+  margin-top: -12px;
+}
+
+.rank-curator {
+  padding: 20px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 12px;
+  height: 1px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+.rank-jockey {
+  padding: 20px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 12px;
+  height: 1px;
+  margin-left: 115px;
+  border-radius: 5px;
+}
+
+.rank-video {
+  padding: 20px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 12px;
+  height: 1px;
+  margin-left: 140px;
+  border-radius: 5px;
+}
