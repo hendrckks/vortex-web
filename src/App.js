@@ -15,8 +15,12 @@ import { playTransitionAnimation } from "./component/Animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMixcloud } from "@fortawesome/free-brands-svg-icons";
 import Shop from "./component/Shop";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 function App() {
+  function HandleFacebookClick() {
+    window.open("https://www.facebook.com/DjVortex254", "_blank");
+  }
   function HandleInstagramClick() {
     window.open("https://www.instagram.com/djvortex254/", "_blank");
   }
@@ -69,6 +73,7 @@ function App() {
             <InstagramIcon onClick={HandleInstagramClick} />
             <TwitterIcon onClick={HandleTwitterClick} />
             <YouTubeIcon onClick={HandleYoutubeClick} />
+            <FacebookIcon onClick={HandleFacebookClick} />
             <FontAwesomeIcon icon={faMixcloud} />
           </div>
         </div>
