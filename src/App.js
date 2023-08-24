@@ -18,13 +18,13 @@ import Shop from "./component/Shop";
 
 function App() {
   function HandleInstagramClick() {
-    window.location.href = "https://www.instagram.com/djvortex254/";
+    window.open("https://www.instagram.com/djvortex254/", "_blank");
   }
   function HandleTwitterClick() {
-    window.location.href = "https://www.twitter.com/djvortex254/";
+    window.open("https://www.twitter.com/djvortex254/", "_blank");
   }
   function HandleYoutubeClick() {
-    window.location.href = "https://www.youtube.com/@DjVortex254";
+    window.open("https://www.youtube.com/@DjVortex254", "_blank");
   }
   const [isTransitioning, setIsTransitioning] = useState(false);
 
